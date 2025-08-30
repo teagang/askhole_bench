@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Access the questions.csv file
-file_path = "questions.csv"
+file_path = "data/questions.csv"
 df = pd.read_csv(file_path)
 first_question = df["questions"][0]
 print(first_question)
